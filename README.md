@@ -40,3 +40,37 @@ This is a functional To-Do application developed using React. The project demons
 ## Live Demo
 
 [Try the To-Do App](https://annbusya.github.io/To-do-app/)
+
+## How to Run the Project Locally
+
+To run this project locally, follow these steps:
+### Prerequisites
+
+- **Node.js**: Ensure you have Node.js installed. This project is tested with **Node.js v16**. You can download it from [Node.js official website](https://nodejs.org/).
+
+### Steps
+
+1. **Clone the Repository**:
+    ```bash
+    git clone https://github.com/yourusername/To-do-app.git
+    cd To-do-app
+    ```
+
+2. **Install Dependencies**:
+    ```bash
+    npm install
+    ```
+
+3. **Run the Development Server**:
+    ```bash
+    npm start
+    ```
+
+4. Open [http://localhost:3000](http://localhost:3000) in your browser to see the app running locally.
+
+### Building for Production
+
+To create a production build:
+
+```bash
+npm run build
